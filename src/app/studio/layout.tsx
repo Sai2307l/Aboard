@@ -8,9 +8,5 @@ export default function RootLayout({
 }: {
   readonly children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body className={`font-poppins antialiased`}>{children}</body>
-    </html>
-  );
+  return <div>{children}</div>;
 }
