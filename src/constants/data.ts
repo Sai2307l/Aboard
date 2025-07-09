@@ -8,6 +8,7 @@ const menuItems: MenuItem[] = [
   { label: "Shop", href: "/shop" },
   { label: "Contact", href: "/contact" },
   { label: "Hot Deals", href: "/hot-deals" },
+  { label: "Blogs", href: "/blogs" },
 ];
 
 export const quickLinksData = [
